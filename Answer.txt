@@ -1,1 +1,16 @@
-sdfsd
+Abstract class don’t have to contain abstract methods, unlike interface all methods should be abstract.
+
+Use abstract class when you want another classes to inherit from it, so they can implement its methods.
+
+It’s good to use abstract class if you want to add new methods, unlike interface all classes that implement it should implement all new methods.
+
+In abstract class you can declare non public members, unlike interface all its methods most be public.
+
+Interface is better if the functionality will be used across disparate objects, 
+an abstract class should be used primarily for objects that are related.
+
+Interface should be implemented by another class, and we can’t create a direct object of that interface, 
+so we have to inherit the class that implements the interface and create indirect objects.
+
+An interface does not contain any constructors and it is implicitly abstract and public, 
+so not need to use the abstract or public keywords while declaring it.
